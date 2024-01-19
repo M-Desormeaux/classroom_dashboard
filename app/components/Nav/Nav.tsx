@@ -6,13 +6,13 @@ export const Nav = ({
   paths?: { href: string; label: string }[];
 }) => {
   return (
-    <div className="bg-gray-200 sticky top-0 min-h-16 flex justify-center items-center gap-2 rounded-b-2xl w-full">
+    <nav className="bg-gray-200 min-h-16 flex justify-center items-center gap-2 rounded-b-2xl">
       {paths?.map((path, index) =>
         pathname === path.href ? (
           <a
             href={path.href}
             key={index}
-            className="text-2xl font-bold px-6 py-4"
+            className="text-2xl font-bold px-6 py-4 h-16"
           >
             {path.label}
           </a>
@@ -20,12 +20,12 @@ export const Nav = ({
           <a
             href={path.href}
             key={index}
-            className="text-xl underline px-6 py-4 underline-offset-4"
+            className="text-xl underline px-6 py-4 underline-offset-4 h-16"
           >
             {path.label}
           </a>
         )
       )}
-    </div>
+    </nav>
   );
 };
