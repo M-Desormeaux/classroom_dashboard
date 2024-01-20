@@ -45,7 +45,7 @@ export default function App() {
       </head>
       <body className="flex justify-center text-gray-950">
         <div className="flex flex-col w-full gap-10 max-w-5xl min-h-lvh items-center">
-          <header className="w-full sticky top-0 overflow-hidden">
+          <header className="w-full sticky top-0 h-fit">
             <Nav pathname={pathname} paths={paths} />
           </header>
           <div className="max-w-4xl w-full sm:w-11/12 rounded-t-xl h-full bg-gray-200 p-5">
