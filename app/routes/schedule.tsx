@@ -1,4 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
+import { ScheduleCard } from "~/components/Cards";
+import { DEFAULT_SCHEDULE } from "~/constants";
 
 export const meta: MetaFunction = () => {
   return [
@@ -11,5 +13,11 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Schedule() {
-  return <>Schedule</>;
+  return (
+    <div className="flex flex-col gap-4">
+      {DEFAULT_SCHEDULE.map((item, index) => (
+        <ScheduleCard key={index} {...item} />
+      ))}
+    </div>
+  );
 }
