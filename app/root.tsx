@@ -44,11 +44,11 @@ export default function App() {
         <Links />
       </head>
       <body className="flex justify-center text-gray-950">
-        <div className="flex flex-col w-full gap-10 max-w-5xl min-h-lvh items-center">
-          <header className="w-full sticky top-0 h-fit">
+        <div className="flex min-h-lvh w-full max-w-5xl flex-col items-center gap-10">
+          <header className="sticky top-0 h-fit w-full">
             <Nav pathname={pathname} paths={paths} />
           </header>
-          <div className="max-w-4xl w-full sm:w-11/12 rounded-t-xl h-full bg-gray-200 p-5">
+          <div className="h-full w-full max-w-4xl rounded-t-xl bg-gray-200 p-5 sm:w-11/12">
             <Outlet />
           </div>
         </div>
