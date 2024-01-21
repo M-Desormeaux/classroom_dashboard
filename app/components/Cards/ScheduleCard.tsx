@@ -9,10 +9,12 @@ export const ScheduleCard = ({
   high,
   avg,
   low,
+  teacherID,
 }: Schedule) => {
   return (
     <div className="flex w-full flex-col gap-1 rounded-md bg-gray-100 px-4 py-3 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
       <div className="flex w-full flex-col gap-1 sm:w-max">
+        {teacherID && <span className="text-xs">{teacherID}</span>}
         <div className="flex items-center justify-between sm:justify-start sm:gap-2">
           <h2 className="text-xl font-semibold">{label}</h2>
           <span className="block text-xl">({size})</span>

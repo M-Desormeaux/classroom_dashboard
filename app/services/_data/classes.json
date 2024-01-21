@@ -1,0 +1,58 @@
+[
+  {
+    "classID": "english",
+    "label": "English 101",
+    "start": "8:00",
+    "end": "10:00",
+    "students": [
+      "0afw3-alfeu3788sdf2",
+      "2fkm4-alfeu3788sdf2",
+      "4iaf5-alfeu3788sdf2",
+      "6gif3-alfeu3788sdf2",
+      "8zje5-alfeu3788sdf2"
+    ],
+    "teacherID": "amy.guillory"
+  },
+  {
+    "classID": "history",
+    "label": "History 101",
+    "start": "8:30",
+    "end": "10:30",
+    "students": [
+      "1arw1-alfeu3788sdf2",
+      "3glm0-alfeu3788sdf2",
+      "5ghb9-alfeu3788sdf2",
+      "7ohd9-alfeu3788sdf2",
+      "9lhf2-alfeu3788sdf2"
+    ],
+    "teacherID": "mark.fuse"
+  },
+  {
+    "classID": "math",
+    "label": "Math 101",
+    "start": "10:15",
+    "end": "12:15",
+    "students": [
+      "0afw3-alfeu3788sdf2",
+      "3glm0-alfeu3788sdf2",
+      "4iaf5-alfeu3788sdf2",
+      "7ohd9-alfeu3788sdf2",
+      "8zje5-alfeu3788sdf2"
+    ],
+    "teacherID": "amy.guillory"
+  },
+  {
+    "classID": "science",
+    "label": "Science 101",
+    "start": "11:30",
+    "end": "13:30",
+    "students": [
+      "1arw1-alfeu3788sdf2",
+      "2fkm4-alfeu3788sdf2",
+      "5ghb9-alfeu3788sdf2",
+      "6gif3-alfeu3788sdf2",
+      "9lhf2-alfeu3788sdf2"
+    ],
+    "teacherID": "mark.fuse"
+  }
+]

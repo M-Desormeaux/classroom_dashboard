@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import { StudentCard } from "~/components/Cards";
-import { DEFAULT_STUDENTS } from "~/constants";
+import { getStudents } from "~/services";
 
 export const meta: MetaFunction = () => {
   return [
@@ -10,10 +10,12 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Students() {
+  const students = getStudents();
+
   return (
     <div className="flex flex-col gap-4">
-      {DEFAULT_STUDENTS.map((student) => (
-        <StudentCard key={student.studentId} {...student} />
+      {students.map((student) => (
+        <StudentCard key={student.studentID} {...student} />
       ))}
     </div>
   );

@@ -1,17 +1,18 @@
 export interface Student {
-  studentId: string;
+  studentID: string;
   name: string;
-  avg: number | null;
+  avg: number;
 }
 
 export interface Assignment {
-  assignmentId: string;
-  label: string;
-  subject?: string;
+  assignmentID: string;
+  classID: string;
+  gradeID?: number;
+  label?: string;
   desc?: string;
-  avg: number | null;
-  high?: number | null;
-  low?: number | null;
+  avg: number;
+  high?: number;
+  low?: number;
 }
 
 export interface Grades extends Student {
@@ -19,11 +20,12 @@ export interface Grades extends Student {
 }
 
 export interface Schedule {
+  teacherID: string;
   label: string;
-  size: string;
+  size: number;
   start: string;
   end: string;
-  avg: number | null;
-  high: number | null;
-  low: number | null;
+  avg: number;
+  high: number;
+  low: number;
 }

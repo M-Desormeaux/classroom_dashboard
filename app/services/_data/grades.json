@@ -1,0 +1,1402 @@
+[
+  {
+    "gradeID": 1,
+    "assignmentID": "eng-assign-one",
+    "classID": "english",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 87
+  },
+  {
+    "gradeID": 2,
+    "assignmentID": "eng-assign-one",
+    "classID": "english",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 69
+  },
+  {
+    "gradeID": 3,
+    "assignmentID": "eng-assign-one",
+    "classID": "english",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 85
+  },
+  {
+    "gradeID": 4,
+    "assignmentID": "eng-assign-one",
+    "classID": "english",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 67
+  },
+  {
+    "gradeID": 5,
+    "assignmentID": "eng-assign-one",
+    "classID": "english",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 91
+  },
+  {
+    "gradeID": 6,
+    "assignmentID": "eng-assign-one",
+    "classID": "english",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 88
+  },
+  {
+    "gradeID": 7,
+    "assignmentID": "eng-assign-one",
+    "classID": "english",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 67
+  },
+  {
+    "gradeID": 8,
+    "assignmentID": "eng-assign-one",
+    "classID": "english",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 82
+  },
+  {
+    "gradeID": 9,
+    "assignmentID": "eng-assign-one",
+    "classID": "english",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 92
+  },
+  {
+    "gradeID": 10,
+    "assignmentID": "eng-assign-one",
+    "classID": "english",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 87
+  },
+  {
+    "gradeID": 11,
+    "assignmentID": "eng-assign-two",
+    "classID": "english",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 93
+  },
+  {
+    "gradeID": 12,
+    "assignmentID": "eng-assign-two",
+    "classID": "english",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 13,
+    "assignmentID": "eng-assign-two",
+    "classID": "english",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 66
+  },
+  {
+    "gradeID": 14,
+    "assignmentID": "eng-assign-two",
+    "classID": "english",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 87
+  },
+  {
+    "gradeID": 15,
+    "assignmentID": "eng-assign-two",
+    "classID": "english",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 93
+  },
+  {
+    "gradeID": 16,
+    "assignmentID": "eng-assign-two",
+    "classID": "english",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 82
+  },
+  {
+    "gradeID": 17,
+    "assignmentID": "eng-assign-two",
+    "classID": "english",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 85
+  },
+  {
+    "gradeID": 18,
+    "assignmentID": "eng-assign-two",
+    "classID": "english",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 72
+  },
+  {
+    "gradeID": 19,
+    "assignmentID": "eng-assign-two",
+    "classID": "english",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 81
+  },
+  {
+    "gradeID": 20,
+    "assignmentID": "eng-assign-two",
+    "classID": "english",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 68
+  },
+  {
+    "gradeID": 21,
+    "assignmentID": "eng-assign-three",
+    "classID": "english",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 93
+  },
+  {
+    "gradeID": 22,
+    "assignmentID": "eng-assign-three",
+    "classID": "english",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 23,
+    "assignmentID": "eng-assign-three",
+    "classID": "english",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 74
+  },
+  {
+    "gradeID": 24,
+    "assignmentID": "eng-assign-three",
+    "classID": "english",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 82
+  },
+  {
+    "gradeID": 25,
+    "assignmentID": "eng-assign-three",
+    "classID": "english",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 83
+  },
+  {
+    "gradeID": 26,
+    "assignmentID": "eng-assign-three",
+    "classID": "english",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 90
+  },
+  {
+    "gradeID": 27,
+    "assignmentID": "eng-assign-three",
+    "classID": "english",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 76
+  },
+  {
+    "gradeID": 28,
+    "assignmentID": "eng-assign-three",
+    "classID": "english",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 91
+  },
+  {
+    "gradeID": 29,
+    "assignmentID": "eng-assign-three",
+    "classID": "english",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 70
+  },
+  {
+    "gradeID": 30,
+    "assignmentID": "eng-assign-three",
+    "classID": "english",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 94
+  },
+  {
+    "gradeID": 31,
+    "assignmentID": "eng-assgn-four",
+    "classID": "english",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 80
+  },
+  {
+    "gradeID": 32,
+    "assignmentID": "eng-assgn-four",
+    "classID": "english",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 94
+  },
+  {
+    "gradeID": 33,
+    "assignmentID": "eng-assgn-four",
+    "classID": "english",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 87
+  },
+  {
+    "gradeID": 34,
+    "assignmentID": "eng-assgn-four",
+    "classID": "english",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 76
+  },
+  {
+    "gradeID": 35,
+    "assignmentID": "eng-assgn-four",
+    "classID": "english",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 83
+  },
+  {
+    "gradeID": 36,
+    "assignmentID": "eng-assgn-four",
+    "classID": "english",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 37,
+    "assignmentID": "eng-assgn-four",
+    "classID": "english",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 38,
+    "assignmentID": "eng-assgn-four",
+    "classID": "english",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 79
+  },
+  {
+    "gradeID": 39,
+    "assignmentID": "eng-assgn-four",
+    "classID": "english",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 84
+  },
+  {
+    "gradeID": 40,
+    "assignmentID": "eng-assgn-four",
+    "classID": "english",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 80
+  },
+  {
+    "gradeID": 41,
+    "assignmentID": "eng-assign-five",
+    "classID": "english",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 87
+  },
+  {
+    "gradeID": 42,
+    "assignmentID": "eng-assign-five",
+    "classID": "english",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 76
+  },
+  {
+    "gradeID": 43,
+    "assignmentID": "eng-assign-five",
+    "classID": "english",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 76
+  },
+  {
+    "gradeID": 44,
+    "assignmentID": "eng-assign-five",
+    "classID": "english",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 95
+  },
+  {
+    "gradeID": 45,
+    "assignmentID": "eng-assign-five",
+    "classID": "english",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 88
+  },
+  {
+    "gradeID": 46,
+    "assignmentID": "eng-assign-five",
+    "classID": "english",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 95
+  },
+  {
+    "gradeID": 47,
+    "assignmentID": "eng-assign-five",
+    "classID": "english",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 91
+  },
+  {
+    "gradeID": 48,
+    "assignmentID": "eng-assign-five",
+    "classID": "english",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 80
+  },
+  {
+    "gradeID": 49,
+    "assignmentID": "eng-assign-five",
+    "classID": "english",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 82
+  },
+  {
+    "gradeID": 50,
+    "assignmentID": "eng-assign-five",
+    "classID": "english",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 82
+  },
+  {
+    "gradeID": 51,
+    "assignmentID": "his-assign-one",
+    "classID": "history",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 91
+  },
+  {
+    "gradeID": 52,
+    "assignmentID": "his-assign-one",
+    "classID": "history",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 94
+  },
+  {
+    "gradeID": 53,
+    "assignmentID": "his-assign-one",
+    "classID": "history",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 89
+  },
+  {
+    "gradeID": 54,
+    "assignmentID": "his-assign-one",
+    "classID": "history",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 90
+  },
+  {
+    "gradeID": 55,
+    "assignmentID": "his-assign-one",
+    "classID": "history",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 70
+  },
+  {
+    "gradeID": 56,
+    "assignmentID": "his-assign-one",
+    "classID": "history",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 94
+  },
+  {
+    "gradeID": 57,
+    "assignmentID": "his-assign-one",
+    "classID": "history",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 83
+  },
+  {
+    "gradeID": 58,
+    "assignmentID": "his-assign-one",
+    "classID": "history",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 77
+  },
+  {
+    "gradeID": 59,
+    "assignmentID": "his-assign-one",
+    "classID": "history",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 70
+  },
+  {
+    "gradeID": 60,
+    "assignmentID": "his-assign-one",
+    "classID": "history",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 86
+  },
+  {
+    "gradeID": 61,
+    "assignmentID": "his-assign-two",
+    "classID": "history",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 77
+  },
+  {
+    "gradeID": 62,
+    "assignmentID": "his-assign-two",
+    "classID": "history",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 72
+  },
+  {
+    "gradeID": 63,
+    "assignmentID": "his-assign-two",
+    "classID": "history",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 93
+  },
+  {
+    "gradeID": 64,
+    "assignmentID": "his-assign-two",
+    "classID": "history",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 66
+  },
+  {
+    "gradeID": 65,
+    "assignmentID": "his-assign-two",
+    "classID": "history",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 67
+  },
+  {
+    "gradeID": 66,
+    "assignmentID": "his-assign-two",
+    "classID": "history",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 73
+  },
+  {
+    "gradeID": 67,
+    "assignmentID": "his-assign-two",
+    "classID": "history",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 80
+  },
+  {
+    "gradeID": 68,
+    "assignmentID": "his-assign-two",
+    "classID": "history",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 87
+  },
+  {
+    "gradeID": 69,
+    "assignmentID": "his-assign-two",
+    "classID": "history",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 86
+  },
+  {
+    "gradeID": 70,
+    "assignmentID": "his-assign-two",
+    "classID": "history",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 88
+  },
+  {
+    "gradeID": 71,
+    "assignmentID": "his-assign-three",
+    "classID": "history",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 94
+  },
+  {
+    "gradeID": 72,
+    "assignmentID": "his-assign-three",
+    "classID": "history",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 72
+  },
+  {
+    "gradeID": 73,
+    "assignmentID": "his-assign-three",
+    "classID": "history",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 74
+  },
+  {
+    "gradeID": 74,
+    "assignmentID": "his-assign-three",
+    "classID": "history",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 73
+  },
+  {
+    "gradeID": 75,
+    "assignmentID": "his-assign-three",
+    "classID": "history",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 94
+  },
+  {
+    "gradeID": 76,
+    "assignmentID": "his-assign-three",
+    "classID": "history",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 94
+  },
+  {
+    "gradeID": 77,
+    "assignmentID": "his-assign-three",
+    "classID": "history",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 78,
+    "assignmentID": "his-assign-three",
+    "classID": "history",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 75
+  },
+  {
+    "gradeID": 79,
+    "assignmentID": "his-assign-three",
+    "classID": "history",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 73
+  },
+  {
+    "gradeID": 80,
+    "assignmentID": "his-assign-three",
+    "classID": "history",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 77
+  },
+  {
+    "gradeID": 81,
+    "assignmentID": "his-assign-four",
+    "classID": "history",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 91
+  },
+  {
+    "gradeID": 82,
+    "assignmentID": "his-assign-four",
+    "classID": "history",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 77
+  },
+  {
+    "gradeID": 83,
+    "assignmentID": "his-assign-four",
+    "classID": "history",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 67
+  },
+  {
+    "gradeID": 84,
+    "assignmentID": "his-assign-four",
+    "classID": "history",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 75
+  },
+  {
+    "gradeID": 85,
+    "assignmentID": "his-assign-four",
+    "classID": "history",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 91
+  },
+  {
+    "gradeID": 86,
+    "assignmentID": "his-assign-four",
+    "classID": "history",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 74
+  },
+  {
+    "gradeID": 87,
+    "assignmentID": "his-assign-four",
+    "classID": "history",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 88,
+    "assignmentID": "his-assign-four",
+    "classID": "history",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 85
+  },
+  {
+    "gradeID": 89,
+    "assignmentID": "his-assign-four",
+    "classID": "history",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 90,
+    "assignmentID": "his-assign-four",
+    "classID": "history",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 91,
+    "assignmentID": "his-assign-five",
+    "classID": "history",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 75
+  },
+  {
+    "gradeID": 92,
+    "assignmentID": "his-assign-five",
+    "classID": "history",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 87
+  },
+  {
+    "gradeID": 93,
+    "assignmentID": "his-assign-five",
+    "classID": "history",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 94,
+    "assignmentID": "his-assign-five",
+    "classID": "history",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 76
+  },
+  {
+    "gradeID": 95,
+    "assignmentID": "his-assign-five",
+    "classID": "history",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 68
+  },
+  {
+    "gradeID": 96,
+    "assignmentID": "his-assign-five",
+    "classID": "history",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 87
+  },
+  {
+    "gradeID": 97,
+    "assignmentID": "his-assign-five",
+    "classID": "history",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 84
+  },
+  {
+    "gradeID": 98,
+    "assignmentID": "his-assign-five",
+    "classID": "history",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 91
+  },
+  {
+    "gradeID": 99,
+    "assignmentID": "his-assign-five",
+    "classID": "history",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 69
+  },
+  {
+    "gradeID": 100,
+    "assignmentID": "his-assign-five",
+    "classID": "history",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 101,
+    "assignmentID": "math-assign-one",
+    "classID": "math",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 67
+  },
+  {
+    "gradeID": 102,
+    "assignmentID": "math-assign-one",
+    "classID": "math",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 93
+  },
+  {
+    "gradeID": 103,
+    "assignmentID": "math-assign-one",
+    "classID": "math",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 69
+  },
+  {
+    "gradeID": 104,
+    "assignmentID": "math-assign-one",
+    "classID": "math",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 72
+  },
+  {
+    "gradeID": 105,
+    "assignmentID": "math-assign-one",
+    "classID": "math",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 94
+  },
+  {
+    "gradeID": 106,
+    "assignmentID": "math-assign-one",
+    "classID": "math",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 65
+  },
+  {
+    "gradeID": 107,
+    "assignmentID": "math-assign-one",
+    "classID": "math",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 66
+  },
+  {
+    "gradeID": 108,
+    "assignmentID": "math-assign-one",
+    "classID": "math",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 84
+  },
+  {
+    "gradeID": 109,
+    "assignmentID": "math-assign-one",
+    "classID": "math",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 69
+  },
+  {
+    "gradeID": 110,
+    "assignmentID": "math-assign-two",
+    "classID": "math",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 91
+  },
+  {
+    "gradeID": 111,
+    "assignmentID": "math-assign-two",
+    "classID": "math",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 68
+  },
+  {
+    "gradeID": 112,
+    "assignmentID": "math-assign-two",
+    "classID": "math",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 94
+  },
+  {
+    "gradeID": 113,
+    "assignmentID": "math-assign-two",
+    "classID": "math",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 90
+  },
+  {
+    "gradeID": 114,
+    "assignmentID": "math-assign-two",
+    "classID": "math",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 75
+  },
+  {
+    "gradeID": 115,
+    "assignmentID": "math-assign-two",
+    "classID": "math",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 79
+  },
+  {
+    "gradeID": 116,
+    "assignmentID": "math-assign-two",
+    "classID": "math",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 88
+  },
+  {
+    "gradeID": 117,
+    "assignmentID": "math-assign-two",
+    "classID": "math",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 85
+  },
+  {
+    "gradeID": 118,
+    "assignmentID": "math-assign-two",
+    "classID": "math",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 93
+  },
+  {
+    "gradeID": 119,
+    "assignmentID": "math-assign-two",
+    "classID": "math",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 82
+  },
+  {
+    "gradeID": 120,
+    "assignmentID": "math-assign-three",
+    "classID": "math",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 80
+  },
+  {
+    "gradeID": 121,
+    "assignmentID": "math-assign-three",
+    "classID": "math",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 91
+  },
+  {
+    "gradeID": 122,
+    "assignmentID": "math-assign-three",
+    "classID": "math",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 80
+  },
+  {
+    "gradeID": 123,
+    "assignmentID": "math-assign-three",
+    "classID": "math",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 124,
+    "assignmentID": "math-assign-three",
+    "classID": "math",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 69
+  },
+  {
+    "gradeID": 125,
+    "assignmentID": "math-assign-three",
+    "classID": "math",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 79
+  },
+  {
+    "gradeID": 126,
+    "assignmentID": "math-assign-three",
+    "classID": "math",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 82
+  },
+  {
+    "gradeID": 127,
+    "assignmentID": "math-assign-three",
+    "classID": "math",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 70
+  },
+  {
+    "gradeID": 128,
+    "assignmentID": "math-assign-three",
+    "classID": "math",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 80
+  },
+  {
+    "gradeID": 129,
+    "assignmentID": "math-assign-three",
+    "classID": "math",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 67
+  },
+  {
+    "gradeID": 130,
+    "assignmentID": "math-assign-four",
+    "classID": "math",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 73
+  },
+  {
+    "gradeID": 131,
+    "assignmentID": "math-assign-four",
+    "classID": "math",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 89
+  },
+  {
+    "gradeID": 132,
+    "assignmentID": "math-assign-four",
+    "classID": "math",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 72
+  },
+  {
+    "gradeID": 133,
+    "assignmentID": "math-assign-four",
+    "classID": "math",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 72
+  },
+  {
+    "gradeID": 134,
+    "assignmentID": "math-assign-four",
+    "classID": "math",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 84
+  },
+  {
+    "gradeID": 135,
+    "assignmentID": "math-assign-four",
+    "classID": "math",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 73
+  },
+  {
+    "gradeID": 136,
+    "assignmentID": "math-assign-four",
+    "classID": "math",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 86
+  },
+  {
+    "gradeID": 137,
+    "assignmentID": "math-assign-four",
+    "classID": "math",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 95
+  },
+  {
+    "gradeID": 138,
+    "assignmentID": "math-assign-four",
+    "classID": "math",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 72
+  },
+  {
+    "gradeID": 139,
+    "assignmentID": "math-assign-four",
+    "classID": "math",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 91
+  },
+  {
+    "gradeID": 140,
+    "assignmentID": "math-assign-five",
+    "classID": "math",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 82
+  },
+  {
+    "gradeID": 141,
+    "assignmentID": "math-assign-five",
+    "classID": "math",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 70
+  },
+  {
+    "gradeID": 142,
+    "assignmentID": "math-assign-five",
+    "classID": "math",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 143,
+    "assignmentID": "math-assign-five",
+    "classID": "math",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 75
+  },
+  {
+    "gradeID": 144,
+    "assignmentID": "math-assign-five",
+    "classID": "math",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 81
+  },
+  {
+    "gradeID": 145,
+    "assignmentID": "math-assign-five",
+    "classID": "math",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 146,
+    "assignmentID": "math-assign-five",
+    "classID": "math",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 71
+  },
+  {
+    "gradeID": 147,
+    "assignmentID": "math-assign-five",
+    "classID": "math",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 81
+  },
+  {
+    "gradeID": 148,
+    "assignmentID": "math-assign-five",
+    "classID": "math",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 72
+  },
+  {
+    "gradeID": 149,
+    "assignmentID": "math-assign-five",
+    "classID": "math",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 75
+  },
+  {
+    "gradeID": 150,
+    "assignmentID": "math-assign-five",
+    "classID": "math",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 75
+  },
+  {
+    "gradeID": 151,
+    "assignmentID": "sci-assign-one",
+    "classID": "science",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 86
+  },
+  {
+    "gradeID": 152,
+    "assignmentID": "sci-assign-one",
+    "classID": "science",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 95
+  },
+  {
+    "gradeID": 153,
+    "assignmentID": "sci-assign-one",
+    "classID": "science",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 75
+  },
+  {
+    "gradeID": 154,
+    "assignmentID": "sci-assign-one",
+    "classID": "science",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 75
+  },
+  {
+    "gradeID": 155,
+    "assignmentID": "sci-assign-one",
+    "classID": "science",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 87
+  },
+  {
+    "gradeID": 156,
+    "assignmentID": "sci-assign-one",
+    "classID": "science",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 74
+  },
+  {
+    "gradeID": 157,
+    "assignmentID": "sci-assign-one",
+    "classID": "science",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 67
+  },
+  {
+    "gradeID": 158,
+    "assignmentID": "sci-assign-one",
+    "classID": "science",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 86
+  },
+  {
+    "gradeID": 159,
+    "assignmentID": "sci-assign-one",
+    "classID": "science",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 84
+  },
+  {
+    "gradeID": 160,
+    "assignmentID": "sci-assign-two",
+    "classID": "science",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 88
+  },
+  {
+    "gradeID": 161,
+    "assignmentID": "sci-assign-two",
+    "classID": "science",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 65
+  },
+  {
+    "gradeID": 162,
+    "assignmentID": "sci-assign-two",
+    "classID": "science",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 68
+  },
+  {
+    "gradeID": 163,
+    "assignmentID": "sci-assign-two",
+    "classID": "science",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 87
+  },
+  {
+    "gradeID": 164,
+    "assignmentID": "sci-assign-two",
+    "classID": "science",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 95
+  },
+  {
+    "gradeID": 165,
+    "assignmentID": "sci-assign-two",
+    "classID": "science",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 81
+  },
+  {
+    "gradeID": 166,
+    "assignmentID": "sci-assign-two",
+    "classID": "science",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 73
+  },
+  {
+    "gradeID": 167,
+    "assignmentID": "sci-assign-two",
+    "classID": "science",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 80
+  },
+  {
+    "gradeID": 168,
+    "assignmentID": "sci-assign-two",
+    "classID": "science",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 169,
+    "assignmentID": "sci-assign-two",
+    "classID": "science",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 80
+  },
+  {
+    "gradeID": 170,
+    "assignmentID": "sci-assign-three",
+    "classID": "science",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 75
+  },
+  {
+    "gradeID": 171,
+    "assignmentID": "sci-assign-three",
+    "classID": "science",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 90
+  },
+  {
+    "gradeID": 172,
+    "assignmentID": "sci-assign-three",
+    "classID": "science",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 89
+  },
+  {
+    "gradeID": 173,
+    "assignmentID": "sci-assign-three",
+    "classID": "science",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 66
+  },
+  {
+    "gradeID": 174,
+    "assignmentID": "sci-assign-three",
+    "classID": "science",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 73
+  },
+  {
+    "gradeID": 175,
+    "assignmentID": "sci-assign-three",
+    "classID": "science",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 92
+  },
+  {
+    "gradeID": 176,
+    "assignmentID": "sci-assign-three",
+    "classID": "science",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 82
+  },
+  {
+    "gradeID": 177,
+    "assignmentID": "sci-assign-three",
+    "classID": "science",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 96
+  },
+  {
+    "gradeID": 178,
+    "assignmentID": "sci-assign-three",
+    "classID": "science",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 69
+  },
+  {
+    "gradeID": 179,
+    "assignmentID": "sci-assign-three",
+    "classID": "science",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 92
+  },
+  {
+    "gradeID": 180,
+    "assignmentID": "sci-assign-four",
+    "classID": "science",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 91
+  },
+  {
+    "gradeID": 181,
+    "assignmentID": "sci-assign-four",
+    "classID": "science",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 79
+  },
+  {
+    "gradeID": 182,
+    "assignmentID": "sci-assign-four",
+    "classID": "science",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 67
+  },
+  {
+    "gradeID": 183,
+    "assignmentID": "sci-assign-four",
+    "classID": "science",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 72
+  },
+  {
+    "gradeID": 184,
+    "assignmentID": "sci-assign-four",
+    "classID": "science",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 74
+  },
+  {
+    "gradeID": 185,
+    "assignmentID": "sci-assign-four",
+    "classID": "science",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 84
+  },
+  {
+    "gradeID": 186,
+    "assignmentID": "sci-assign-four",
+    "classID": "science",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 86
+  },
+  {
+    "gradeID": 187,
+    "assignmentID": "sci-assign-four",
+    "classID": "science",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 75
+  },
+  {
+    "gradeID": 188,
+    "assignmentID": "sci-assign-four",
+    "classID": "science",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 73
+  },
+  {
+    "gradeID": 189,
+    "assignmentID": "sci-assign-four",
+    "classID": "science",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 190,
+    "assignmentID": "sci-assign-five",
+    "classID": "science",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 68
+  },
+  {
+    "gradeID": 191,
+    "assignmentID": "sci-assign-five",
+    "classID": "science",
+    "studentID": "0afw3-alfeu3788sdf2",
+    "avg": 93
+  },
+  {
+    "gradeID": 192,
+    "assignmentID": "sci-assign-five",
+    "classID": "science",
+    "studentID": "1arw1-alfeu3788sdf2",
+    "avg": 85
+  },
+  {
+    "gradeID": 193,
+    "assignmentID": "sci-assign-five",
+    "classID": "science",
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "avg": 76
+  },
+  {
+    "gradeID": 194,
+    "assignmentID": "sci-assign-five",
+    "classID": "science",
+    "studentID": "3glm0-alfeu3788sdf2",
+    "avg": 70
+  },
+  {
+    "gradeID": 195,
+    "assignmentID": "sci-assign-five",
+    "classID": "science",
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "avg": 74
+  },
+  {
+    "gradeID": 196,
+    "assignmentID": "sci-assign-five",
+    "classID": "science",
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "avg": 89
+  },
+  {
+    "gradeID": 197,
+    "assignmentID": "sci-assign-five",
+    "classID": "science",
+    "studentID": "6gif3-alfeu3788sdf2",
+    "avg": 89
+  },
+  {
+    "gradeID": 198,
+    "assignmentID": "sci-assign-five",
+    "classID": "science",
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "avg": 78
+  },
+  {
+    "gradeID": 199,
+    "assignmentID": "sci-assign-five",
+    "classID": "science",
+    "studentID": "8zje5-alfeu3788sdf2",
+    "avg": 81
+  },
+  {
+    "gradeID": 200,
+    "assignmentID": "sci-assign-five",
+    "classID": "science",
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "avg": 80
+  }
+]
