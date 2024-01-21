@@ -20,7 +20,7 @@ export interface Grades extends Student {
 
 export interface Schedule {
   label: string;
-  size: string;
+  size: number;
   start: string;
   end: string;
   avg: number | null;
