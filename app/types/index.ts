@@ -21,8 +21,8 @@ export interface Grades extends Student {
 
 export interface Schedule {
   teacherID: string;
+  name?: string | undefined;
   label: string;
-  size: number;
   start: string;
   end: string;
   avg: number;

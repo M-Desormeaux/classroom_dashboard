@@ -1,14 +1,16 @@
 import { useLocation } from "@remix-run/react";
-import { getAssignment } from "~/services";
-import { StudentCard } from "~/components/Cards";
-import { Student } from "~/types";
+import { FullGrade, getAssignment } from "~/services";
+import { GradeCard } from "~/components/Cards";
 
 export default function AssignmentDetails() {
   const { pathname } = useLocation();
   const assignmentID = pathname.split("/")[2];
 
-  const assignment: { label?: string; avg?: number; assignments?: Student[] } =
-    getAssignment(assignmentID, true);
+  const assignment: {
+    label?: string;
+    avg?: number;
+    assignments?: FullGrade[];
+  } = getAssignment(assignmentID, true);
 
   return (
     <div className="flex flex-col gap-4">
@@ -32,8 +34,8 @@ export default function AssignmentDetails() {
         </div>
       </div>
       {assignment?.assignments &&
-        assignment.assignments.map((student: Student, index: number) => (
-          <StudentCard key={index} {...student} />
+        assignment.assignments.map((student, index) => (
+          <GradeCard key={index} {...student} label={student.name} />
         ))}
     </div>
   );
