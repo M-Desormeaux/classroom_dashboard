@@ -4,10 +4,10 @@ import { DEFAULT_STUDENT_GRADES } from "~/constants";
 
 export default function StudentDetails() {
   const { pathname } = useLocation();
-  const studentId = pathname.split("/")[2];
+  const studentID = pathname.split("/")[2];
 
   const studentData = DEFAULT_STUDENT_GRADES.find(
-    (student) => student.studentId === studentId,
+    (student) => student.studentID === studentID,
   );
 
   return (
@@ -17,7 +17,7 @@ export default function StudentDetails() {
         <a href="/" className="underline underline-offset-2">
           /Students
         </a>
-        &gt; /{studentId}
+        &gt; /{studentID}
       </div>
       <div className="flex flex-col justify-between sm:flex-row">
         <h2 className="text-3xl font-semibold">{studentData?.name}</h2>
