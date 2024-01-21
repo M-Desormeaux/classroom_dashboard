@@ -1,11 +1,11 @@
 export interface Student {
-  studentId: string;
+  studentID: string;
   name: string;
   avg: number | null;
 }
 
 export interface Assignment {
-  assignmentId: string;
+  assignmentID: string;
   label: string;
   subject?: string;
   desc?: string;
