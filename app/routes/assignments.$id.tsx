@@ -1,6 +1,19 @@
 import { useLocation } from "@remix-run/react";
 import { FullGrade, getAssignment } from "~/services";
 import { GradeCard } from "~/components/Cards";
+import { MetaFunction } from "@remix-run/node";
+
+export const meta: MetaFunction = ({ location }) => {
+  const assignmentID = location.pathname.split("/")[2];
+  const assignmentName: {
+    label?: string;
+  } = getAssignment(assignmentID);
+
+  return [
+    { title: `${assignmentName?.label} Grades` },
+    { name: "description", content: "Take a look at all authorized records." },
+  ];
+};
 
 export default function AssignmentDetails() {
   const { pathname } = useLocation();
@@ -17,9 +30,8 @@ export default function AssignmentDetails() {
       <div className="flex gap-1 text-lg">
         &gt;
         <a href="/assignments" className="underline underline-offset-2">
-          /Assignments
+          All Assignments
         </a>
-        &gt; /{assignmentID}
       </div>
       <div className="flex flex-col justify-between sm:flex-row">
         <h2 className="text-3xl font-semibold">

@@ -1,6 +1,17 @@
+import type { MetaFunction } from "@remix-run/node";
 import { useLocation } from "@remix-run/react";
 import { GradeCard } from "~/components/Cards";
 import { getStudent, getStudentGrades } from "~/services";
+
+export const meta: MetaFunction = ({ location }) => {
+  const studentID = location.pathname.split("/")[2];
+  const studentName = getStudent(studentID);
+
+  return [
+    { title: `${studentName.name} Grades` },
+    { name: "description", content: "Take a look at all authorized records." },
+  ];
+};
 
 export default function StudentDetails() {
   const { pathname } = useLocation();
@@ -14,9 +25,8 @@ export default function StudentDetails() {
       <div className="flex gap-1 text-lg">
         &gt;
         <a href="/" className="underline underline-offset-2">
-          /Students
+          All Students
         </a>
-        &gt; /{studentID}
       </div>
       <div className="flex flex-col justify-between sm:flex-row">
         <h2 className="text-3xl font-semibold">{studentData.name}</h2>
