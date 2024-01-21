@@ -15,21 +15,44 @@ export const Nav = ({
   pathname?: string;
   paths?: { href: string; label: string }[];
 }) => (
-  <nav className="flex min-h-16 items-center justify-center gap-2 overflow-hidden rounded-b-2xl bg-gray-200">
-    {paths?.map((path, index) =>
-      determineLinks(path.href, pathname) ? (
-        <h1 key={index} className="h-16 px-6 py-4 text-2xl font-semibold">
-          {path.label}
-        </h1>
-      ) : (
-        <a
-          href={path.href}
-          key={index}
-          className="h-16 px-6 py-4 text-xl underline underline-offset-4"
-        >
-          {path.label}
-        </a>
-      ),
-    )}
-  </nav>
+  <>
+    <nav className="flex min-h-16 items-center justify-center bg-gray-200 sm:hidden">
+      <details className="flex w-max justify-center">
+        {paths?.map((path, index) =>
+          determineLinks(path.href, pathname) ? (
+            <summary key={index}>
+              <h1 className="inline-block h-16 px-6 py-4 text-2xl font-semibold">
+                {path.label}
+              </h1>
+            </summary>
+          ) : (
+            <a
+              href={path.href}
+              key={index}
+              className="h-16 px-6 py-4 text-center text-xl underline underline-offset-4"
+            >
+              {path.label}
+            </a>
+          ),
+        )}
+      </details>
+    </nav>
+    <nav className="hidden min-h-16 items-center justify-center gap-2 overflow-hidden rounded-b-2xl bg-gray-200 sm:flex">
+      {paths?.map((path, index) =>
+        determineLinks(path.href, pathname) ? (
+          <h1 key={index} className="h-16 px-6 py-4 text-2xl font-semibold">
+            {path.label}
+          </h1>
+        ) : (
+          <a
+            href={path.href}
+            key={index}
+            className="h-16 px-6 py-4 text-xl underline underline-offset-4"
+          >
+            {path.label}
+          </a>
+        ),
+      )}
+    </nav>
+  </>
 );
