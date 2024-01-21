@@ -17,7 +17,7 @@ export const Nav = ({
 }) => (
   <>
     <nav className="flex min-h-16 items-center justify-center bg-gray-200 sm:hidden">
-      <details className="flex w-max justify-center">
+      <details className="flex w-max items-center">
         {paths?.map((path, index) =>
           determineLinks(path.href, pathname) ? (
             <summary key={index}>

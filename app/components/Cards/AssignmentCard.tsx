@@ -17,10 +17,14 @@ export const AssignmentCard = ({
         {classID && <span className="text-xs">{classID}</span>}
         <a
           href={`/assignments/${assignmentID}`}
-          className="flex w-max items-baseline gap-2 py-2 pr-4"
+          className="flex items-baseline gap-2 py-2 pr-4 sm:w-max"
         >
-          <h2 className="text-xl font-semibold">Assignment: {label}</h2>
-          <External />
+          <h2 className="text-wrap text-xl font-semibold">
+            Assignment: {label}
+          </h2>
+          <div>
+            <External />
+          </div>
         </a>
         {desc && <span className="line-clamp-2">{desc}</span>}
       </div>
