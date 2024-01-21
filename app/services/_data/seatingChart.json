@@ -1,0 +1,52 @@
+[
+  {
+    "seatingID": 1,
+    "studentID": "0afw3-alfeu3788sdf2",
+    "classIDs": ["english", "math"]
+  },
+  {
+    "seatingID": 2,
+    "studentID": "1arw1-alfeu3788sdf2",
+    "classIDs": ["history", "science"]
+  },
+  {
+    "seatingID": 3,
+    "studentID": "2fkm4-alfeu3788sdf2",
+    "classIDs": ["english", "science"]
+  },
+  {
+    "seatingID": 4,
+    "studentID": "3glm0-alfeu3788sdf2",
+    "classIDs": ["history", "math"]
+  },
+  {
+    "seatingID": 5,
+    "studentID": "4iaf5-alfeu3788sdf2",
+    "classIDs": ["english", "math"]
+  },
+  {
+    "seatingID": 6,
+    "studentID": "5ghb9-alfeu3788sdf2",
+    "classIDs": ["history", "science"]
+  },
+  {
+    "seatingID": 7,
+    "studentID": "6gif3-alfeu3788sdf2",
+    "classIDs": ["english", "science"]
+  },
+  {
+    "seatingID": 8,
+    "studentID": "7ohd9-alfeu3788sdf2",
+    "classIDs": ["history", "math"]
+  },
+  {
+    "seatingID": 9,
+    "studentID": "8zje5-alfeu3788sdf2",
+    "classIDs": ["english", "math"]
+  },
+  {
+    "seatingID": 10,
+    "studentID": "9lhf2-alfeu3788sdf2",
+    "classIDs": ["history", "science"]
+  }
+]
