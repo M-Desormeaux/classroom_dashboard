@@ -7,7 +7,7 @@ export interface Student {
 export interface Assignment {
   assignmentID: string;
   label: string;
-  subject?: string;
+  classID?: string;
   desc?: string;
   avg: number | null;
   high?: number | null;

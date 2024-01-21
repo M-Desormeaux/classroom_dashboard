@@ -1,12 +1,12 @@
 import { useLocation } from "@remix-run/react";
 import { StudentCard } from "~/components/Cards";
-import { getAssignment } from "~/constants";
+import { getAssignment } from "~/services";
 
 export default function AssignmentDetails() {
   const { pathname } = useLocation();
-  const assignmentId = pathname.split("/")[2];
+  const assignmentID = pathname.split("/")[2];
 
-  const assignment = getAssignment(assignmentId);
+  const assignment = getAssignment(assignmentID);
 
   return (
     <div className="flex flex-col gap-4">
@@ -15,7 +15,7 @@ export default function AssignmentDetails() {
         <a href="/assignments" className="underline underline-offset-2">
           /Assignments
         </a>
-        &gt; /{assignmentId}
+        &gt; /{assignmentID}
       </div>
       <div className="flex flex-col justify-between sm:flex-row">
         <h2 className="text-3xl font-semibold">
