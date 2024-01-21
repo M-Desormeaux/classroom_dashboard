@@ -1,5 +1,5 @@
 import { useLocation } from "@remix-run/react";
-import { AssignmentCard } from "~/components/Cards";
+import { GradeCard } from "~/components/Cards";
 import { getStudent, getStudentGrades } from "~/services";
 
 export default function StudentDetails() {
@@ -30,7 +30,7 @@ export default function StudentDetails() {
       </div>
       {studentGrades?.assignments &&
         studentGrades.assignments.map((assignment, index) => (
-          <AssignmentCard key={index} {...assignment} />
+          <GradeCard key={index} {...assignment} />
         ))}
     </div>
   );

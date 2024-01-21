@@ -15,6 +15,8 @@ export const meta: MetaFunction = () => {
 export default function Schedule() {
   const classes = getClasses();
 
+  console.log("LOG", { classes });
+
   return (
     <div className="flex flex-col gap-4">
       {classes.map((item, index) => (
