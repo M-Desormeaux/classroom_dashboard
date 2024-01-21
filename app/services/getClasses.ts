@@ -1,3 +1,4 @@
+import { getGrades } from ".";
 import { ClassesData } from "./_data";
 
 export const getClasses = () => {
@@ -5,13 +6,14 @@ export const getClasses = () => {
 
   const temp = ClassesData.map((dataPoint) => {
     const studentCount = dataPoint.students.length;
+    const classGrades = getGrades((d) => {
+      return d.classID === dataPoint.classID;
+    });
 
     return {
       ...dataPoint,
+      ...classGrades,
       size: studentCount,
-      high: 0,
-      avg: 0,
-      low: 0,
     };
   });
 

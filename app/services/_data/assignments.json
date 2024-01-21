@@ -2,121 +2,101 @@
   {
     "assignmentID": "eng-assign-one",
     "classID": "english",
-    "label": "Literary Analysis Essay",
-    "desc": "---"
+    "label": "Literary Analysis Essay"
   },
   {
     "assignmentID": "eng-assign-two",
     "classID": "english",
-    "label": "Research Paper",
-    "desc": "---"
+    "label": "Research Paper"
   },
   {
     "assignmentID": "eng-assign-three",
     "classID": "english",
-    "label": "Poetry Explication",
-    "desc": "---"
+    "label": "Poetry Explication"
   },
   {
     "assignmentID": "eng-assgn-four",
     "classID": "english",
-    "label": "Rhetorical Analysis",
-    "desc": "---"
+    "label": "Rhetorical Analysis"
   },
   {
     "assignmentID": "eng-assign-five",
     "classID": "english",
-    "label": "Argumentative Essay",
-    "desc": "---"
+    "label": "Argumentative Essay"
   },
   {
     "assignmentID": "his-assign-one",
     "classID": "history",
-    "label": "Primary Source Analysis",
-    "desc": "---"
+    "label": "Primary Source Analysis"
   },
   {
     "assignmentID": "his-assign-two",
     "classID": "history",
-    "label": "Historiography Paper",
-    "desc": "---"
+    "label": "Historiography Paper"
   },
   {
     "assignmentID": "his-assign-three",
     "classID": "history",
-    "label": "Cultural History Project",
-    "desc": "---"
+    "label": "Cultural History Project"
   },
   {
     "assignmentID": "his-assign-four",
     "classID": "history",
-    "label": "Biography Report",
-    "desc": "---"
+    "label": "Biography Report"
   },
   {
     "assignmentID": "his-assign-five",
     "classID": "history",
-    "label": "Timeline Creation",
-    "desc": "---"
+    "label": "Timeline Creation"
   },
   {
     "assignmentID": "math-assign-one",
     "classID": "math",
-    "label": "Geometry Proof",
-    "desc": "---"
+    "label": "Geometry Proof"
   },
   {
     "assignmentID": "math-assign-two",
     "classID": "math",
-    "label": "Statistics Project",
-    "desc": "---"
+    "label": "Statistics Project"
   },
   {
     "assignmentID": "math-assign-three",
     "classID": "math",
-    "label": "Polynomial Factorization",
-    "desc": "---"
+    "label": "Polynomial Factorization"
   },
   {
     "assignmentID": "math-assign-four",
     "classID": "math",
-    "label": "Trigonometric Functions",
-    "desc": "---"
+    "label": "Trigonometric Functions"
   },
   {
     "assignmentID": "math-assign-five",
     "classID": "math",
-    "label": "Calculus Problem Set",
-    "desc": "---"
+    "label": "Calculus Problem Set"
   },
   {
     "assignmentID": "sci-assign-one",
     "classID": "science",
-    "label": "Lab Report",
-    "desc": "---"
+    "label": "Lab Report"
   },
   {
     "assignmentID": "sci-assign-two",
     "classID": "science",
-    "label": "Research Proposal",
-    "desc": "---"
+    "label": "Research Proposal"
   },
   {
     "assignmentID": "sci-assign-three",
     "classID": "science",
-    "label": "Experiment Design",
-    "desc": "---"
+    "label": "Experiment Design"
   },
   {
     "assignmentID": "sci-assign-four",
     "classID": "science",
-    "label": "Model Creation",
-    "desc": "---"
+    "label": "Model Creation"
   },
   {
     "assignmentID": "sci-assign-five",
     "classID": "science",
-    "label": "Scientific Poster",
-    "desc": "---"
+    "label": "Scientific Poster"
   }
 ]

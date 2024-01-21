@@ -3,7 +3,7 @@ import { External } from "../Icon";
 import { formatGrade } from "~/utils/formatGrade";
 
 export const AssignmentCard = ({
-  label,
+  label = "",
   desc,
   avg,
   high,
@@ -31,7 +31,7 @@ export const AssignmentCard = ({
           <div className="hidden items-center justify-between sm:flex sm:gap-2">
             <span>High</span>
             <div className="flex min-w-16 items-center justify-end">
-              <span className="text-lg">{formatGrade(high)}</span>
+              <span className="text-lg">{formatGrade(high || 0)}</span>
               <span>%</span>
             </div>
           </div>
@@ -47,7 +47,7 @@ export const AssignmentCard = ({
           <div className="hidden items-center justify-between sm:flex sm:gap-2">
             <span>Low</span>
             <div className="flex min-w-16 items-center justify-end">
-              <span className="text-lg">{formatGrade(low)}</span>
+              <span className="text-lg">{formatGrade(low || 0)}</span>
               <span>%</span>
             </div>
           </div>

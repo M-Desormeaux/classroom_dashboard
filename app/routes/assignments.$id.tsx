@@ -1,12 +1,14 @@
 import { useLocation } from "@remix-run/react";
-import { StudentCard } from "~/components/Cards";
 import { getAssignment } from "~/services";
+import { StudentCard } from "~/components/Cards";
+import { Student } from "~/types";
 
 export default function AssignmentDetails() {
   const { pathname } = useLocation();
   const assignmentID = pathname.split("/")[2];
 
-  const assignment = getAssignment(assignmentID);
+  const assignment: { label?: string; avg?: number; assignments?: Student[] } =
+    getAssignment(assignmentID, true);
 
   return (
     <div className="flex flex-col gap-4">
@@ -19,21 +21,20 @@ export default function AssignmentDetails() {
       </div>
       <div className="flex flex-col justify-between sm:flex-row">
         <h2 className="text-3xl font-semibold">
-          Assignment: {assignment.assignmentLabel}
+          Assignment: {assignment.label}
         </h2>
         <div className="flex w-full items-center justify-between sm:w-fit sm:justify-end sm:gap-2">
           <span className="text-xl">Average</span>
           <div className="flex items-center">
-            <span className="text-xl font-semibold">
-              {assignment.assignmentAvg}
-            </span>
+            <span className="text-xl font-semibold">{assignment.avg}</span>
             <span>%</span>
           </div>
         </div>
       </div>
-      {assignment.students.map((student, index) => (
-        <StudentCard key={index} {...student} />
-      ))}
+      {assignment?.assignments &&
+        assignment.assignments.map((student: Student, index: number) => (
+          <StudentCard key={index} {...student} />
+        ))}
     </div>
   );
 }

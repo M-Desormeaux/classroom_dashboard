@@ -11,7 +11,7 @@
       "6gif3-alfeu3788sdf2",
       "8zje5-alfeu3788sdf2"
     ],
-    "teacherIDs": "amy.guillory"
+    "teacherID": "amy.guillory"
   },
   {
     "classID": "history",
@@ -25,7 +25,7 @@
       "7ohd9-alfeu3788sdf2",
       "9lhf2-alfeu3788sdf2"
     ],
-    "teacherIDs": "mark.fuse"
+    "teacherID": "mark.fuse"
   },
   {
     "classID": "math",
@@ -39,7 +39,7 @@
       "7ohd9-alfeu3788sdf2",
       "8zje5-alfeu3788sdf2"
     ],
-    "teacherIDs": "amy.guillory"
+    "teacherID": "amy.guillory"
   },
   {
     "classID": "science",
@@ -53,6 +53,6 @@
       "6gif3-alfeu3788sdf2",
       "9lhf2-alfeu3788sdf2"
     ],
-    "teacherIDs": "mark.fuse"
+    "teacherID": "mark.fuse"
   }
 ]
