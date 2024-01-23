@@ -1,5 +1,6 @@
 import { GradesData } from "../_data";
 import { formatGrade } from "~/utils/formatGrade";
+import { getStudent } from "../studentService";
 
 // ! change avg to score when possible
 interface Grade {
@@ -43,7 +44,12 @@ export const getGrades = (
 
   // populate information of assignments.
   const assignments = targetGrades.map((dataPoint) => {
-    return { ...dataPoint };
+    const student = getStudent(dataPoint.studentID);
+
+    return {
+      ...dataPoint,
+      ...student,
+    };
   });
 
   // by default return all information
