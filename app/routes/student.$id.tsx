@@ -1,5 +1,5 @@
-import type { MetaFunction } from "@remix-run/node";
-import { useLocation } from "@remix-run/react";
+import type { LoaderFunctionArgs, MetaFunction } from "@remix-run/node";
+import { useLoaderData, useLocation } from "@remix-run/react";
 import { GradeCard } from "~/components/Cards";
 import { getStudent, getStudentGrades } from "~/services";
 
@@ -13,12 +13,17 @@ export const meta: MetaFunction = ({ location }) => {
   ];
 };
 
-export default function StudentDetails() {
-  const { pathname } = useLocation();
-  const studentID = pathname.split("/")[2];
+export async function loader({ params }: LoaderFunctionArgs) {
+  if (!params.id) return;
 
-  const studentData = getStudent(studentID);
-  const studentGrades = getStudentGrades(studentID);
+  const studentData = getStudent(params?.id);
+  const studentGrades = getStudentGrades(params?.id);
+
+  return { studentData, studentGrades };
+}
+
+export default function StudentDetails() {
+  const { studentData, studentGrades } = useLoaderData<typeof loader>();
 
   return (
     <div className="flex flex-col gap-4">

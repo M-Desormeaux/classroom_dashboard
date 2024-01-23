@@ -1,7 +1,7 @@
-import { useLocation } from "@remix-run/react";
+import { useLoaderData, useLocation } from "@remix-run/react";
 import { FullGrade, getAssignment } from "~/services";
 import { GradeCard } from "~/components/Cards";
-import { MetaFunction } from "@remix-run/node";
+import type { LoaderFunctionArgs, MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = ({ location }) => {
   const assignmentID = location.pathname.split("/")[2];
@@ -15,15 +15,16 @@ export const meta: MetaFunction = ({ location }) => {
   ];
 };
 
-export default function AssignmentDetails() {
-  const { pathname } = useLocation();
-  const assignmentID = pathname.split("/")[2];
+export async function loader({ params }: LoaderFunctionArgs) {
+  if (!params.id) return;
 
-  const assignment: {
-    label?: string;
-    avg?: number;
-    assignments?: FullGrade[];
-  } = getAssignment(assignmentID, true);
+  const assignment = getAssignment(params?.id);
+
+  return { assignment };
+}
+
+export default function AssignmentDetails() {
+  const { assignment } = useLoaderData<typeof loader>();
 
   return (
     <div className="flex flex-col gap-4">
@@ -35,7 +36,7 @@ export default function AssignmentDetails() {
       </div>
       <div className="flex flex-col justify-between sm:flex-row">
         <h2 className="text-3xl font-semibold">
-          Assignment: {assignment.label}
+          Assignment: {assignment?.label}
         </h2>
         <div className="flex w-full items-center justify-between sm:w-fit sm:justify-end sm:gap-2">
           <span className="text-xl">Average</span>

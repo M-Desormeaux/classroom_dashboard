@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import { useLoaderData } from "@remix-run/react";
 import { StudentCard } from "~/components/Cards";
 import { getStudents } from "~/services";
 
@@ -9,8 +10,14 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function Students() {
+export async function loader() {
   const students = getStudents();
+
+  return { students };
+}
+
+export default function Students() {
+  const { students } = useLoaderData<typeof loader>();
 
   return (
     <div className="flex flex-col gap-4">
