@@ -6,9 +6,7 @@ export const getStudentGrades = (studentID: string) => {
     return d.studentID === studentID;
   });
   const gradesCount = studentGrades?.assignments?.length || 0;
-  const grades: undefined | number[] = studentGrades?.assignments?.map(
-    (point) => point.avg,
-  );
+  const grades = studentGrades?.assignments?.map((point) => point.avg);
 
   const sum =
     grades?.reduce((acc, curr) => {
