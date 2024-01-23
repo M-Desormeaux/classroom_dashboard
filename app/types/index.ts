@@ -29,3 +29,6 @@ export interface Schedule {
   high: number;
   low: number;
 }
+
+export type ToDo = any;
+export type Predicate = (d: ToDo) => boolean;
