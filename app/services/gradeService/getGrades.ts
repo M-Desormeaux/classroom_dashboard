@@ -1,6 +1,7 @@
 import { GradesData } from "../_data";
 import { formatGrade } from "~/utils/formatGrade";
 import { getStudent } from "../studentService";
+import { getAssignment } from "../assignmentService";
 
 // ! change avg to score when possible
 interface Grade {
@@ -11,12 +12,26 @@ interface Grade {
   avg: number;
 }
 
+interface NoRangeOrGrades {
+  avg: number;
+}
+
+interface NoGrades {
+  min: number;
+  max: number;
+  avg: number;
+}
+
+interface AllDetails {}
+
+type GetGradesReturn = NoRangeOrGrades | NoGrades | AllDetails;
+
 // predicate, includeHighLow = true, includeAssignments = true
 export const getGrades = (
   predicate: (d: Grade) => boolean = () => true,
   includeHighLow = true,
   includeAssignments = true,
-) => {
+): GetGradesReturn => {
   // Get grades data from source. (in this case json)
   const grades: Grade[] = GradesData || [];
   // filter by predicate/not at all
@@ -45,10 +60,12 @@ export const getGrades = (
   // populate information of assignments.
   const assignments = targetGrades.map((dataPoint) => {
     const student = getStudent(dataPoint.studentID);
+    const assignment = getAssignment(dataPoint.assignmentID);
 
     return {
       ...dataPoint,
       ...student,
+      ...assignment,
     };
   });
 
