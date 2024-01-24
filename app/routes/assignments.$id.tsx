@@ -1,8 +1,7 @@
 import { useLoaderData } from "@remix-run/react";
 import { GradeCard } from "~/components/Cards";
 import type { LoaderFunctionArgs, MetaFunction } from "@remix-run/node";
-import { getGrades } from "~/services/Grade";
-import { getAssignment } from "~/services/Assignment";
+import { getAssignment, getGrades } from "~/services";
 
 export const meta: MetaFunction = ({ location }) => {
   const assignmentID = location.pathname.split("/")[2];

@@ -1,14 +1,18 @@
-import { getAssignments } from ".";
+import { AssignmentsData } from "./_data";
 
-export const getAssignment = (
-  assignmentID: string,
-  includeAssignments = false,
-) => {
-  const assignment = getAssignments(includeAssignments).find(
+interface Assignment {
+  assignmentID: string;
+  classID: string;
+  label: string;
+}
+
+export const getAssignment = (assignmentID: string) => {
+  const assignments: Assignment[] = AssignmentsData;
+  const matchingAssignment = assignments.find(
     (assignment) => assignment.assignmentID === assignmentID,
   );
 
-  return {
-    ...assignment,
-  };
+  if (!matchingAssignment) throw new Error("No matching Assignment");
+
+  return matchingAssignment;
 };

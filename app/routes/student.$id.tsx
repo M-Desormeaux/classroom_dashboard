@@ -1,8 +1,7 @@
 import type { LoaderFunctionArgs, MetaFunction } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 import { GradeCard } from "~/components/Cards";
-import { getGrades } from "~/services/Grade";
-import { getStudent } from "~/services/Student";
+import { getGrades, getStudent } from "~/services";
 
 export const meta: MetaFunction = ({ location }) => {
   const studentID = location.pathname.split("/")[2];
@@ -25,8 +24,6 @@ export async function loader({ params }: LoaderFunctionArgs) {
 
 export default function StudentDetails() {
   const { student, grades } = useLoaderData<typeof loader>();
-
-  console.log("LOG", { student, grades });
 
   return (
     <div className="flex flex-col gap-4">

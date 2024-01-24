@@ -1,7 +1,17 @@
 import { StudentsData } from "./_data";
 
-export const getStudent = (studentID: string) => {
-  const studentData = StudentsData.filter((d) => d.studentID === studentID)[0];
+interface Student {
+  studentID: string;
+  name: string;
+}
 
-  return studentData;
+export const getStudent = (studentID: string) => {
+  const students: Student[] = StudentsData;
+  const matchingStudent = students.find(
+    (student) => student.studentID === studentID,
+  );
+
+  if (!matchingStudent) throw new Error("No matching student");
+
+  return matchingStudent;
 };

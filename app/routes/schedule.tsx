@@ -1,7 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 import { ScheduleCard } from "~/components/Cards";
-import { getClasses } from "~/services/getClasses";
+import { getClasses } from "~/services";
 
 export const meta: MetaFunction = () => {
   return [

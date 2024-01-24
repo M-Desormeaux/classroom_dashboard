@@ -1,7 +1,6 @@
-import { getGrades } from "./Grade";
+import { getGrades } from ".";
 import { StudentsData } from "./_data";
 
-// ! improve dont trash
 export const getStudents = () => {
   const temp = StudentsData.map((dataPoint) => {
     const studentGrades = getGrades((d) => {
