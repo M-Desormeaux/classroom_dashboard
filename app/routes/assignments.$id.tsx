@@ -20,20 +20,20 @@ export async function loader({ params }: LoaderFunctionArgs) {
   if (!params.id) return;
 
   const assignment = getAssignment(params?.id);
-  const assignments = getGrades((d) => d.assignmentID === params.id);
+  const grades = getGrades((d) => d.assignmentID === params.id);
 
-  return { assignment, assignments };
+  return { assignment, grades };
 }
 
 export default function AssignmentDetails() {
-  const { assignment, assignments } = useLoaderData<typeof loader>();
+  const { assignment, grades } = useLoaderData<typeof loader>();
 
   return (
     <div className="flex flex-col gap-4">
       <div className="flex gap-1 text-lg">
         &gt;
-        <a href="/assignments" className="underline underline-offset-2">
-          All Assignments
+        <a href="/grades" className="underline underline-offset-2">
+          All grades
         </a>
       </div>
       <div className="flex flex-col justify-between sm:flex-row">
@@ -43,13 +43,13 @@ export default function AssignmentDetails() {
         <div className="flex w-full items-center justify-between sm:w-fit sm:justify-end sm:gap-2">
           <span className="text-xl">Average</span>
           <div className="flex items-center">
-            <span className="text-xl font-semibold">{assignments.avg}</span>
+            <span className="text-xl font-semibold">{grades.avg}</span>
             <span>%</span>
           </div>
         </div>
       </div>
-      {assignments &&
-        assignments?.populatedGrades.map((student, index) => (
+      {grades?.populatedGrades &&
+        grades.populatedGrades.map((student, index) => (
           <GradeCard key={index} {...student} label={student.name} />
         ))}
     </div>

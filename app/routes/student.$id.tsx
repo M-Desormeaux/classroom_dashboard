@@ -1,7 +1,8 @@
 import type { LoaderFunctionArgs, MetaFunction } from "@remix-run/node";
-import { useLoaderData, useLocation } from "@remix-run/react";
+import { useLoaderData } from "@remix-run/react";
 import { GradeCard } from "~/components/Cards";
-import { getStudent, getStudentGrades } from "~/services";
+import { getGrades } from "~/services/Grade";
+import { getStudent } from "~/services/Student";
 
 export const meta: MetaFunction = ({ location }) => {
   const studentID = location.pathname.split("/")[2];
@@ -16,14 +17,16 @@ export const meta: MetaFunction = ({ location }) => {
 export async function loader({ params }: LoaderFunctionArgs) {
   if (!params.id) return;
 
-  const studentData = getStudent(params?.id);
-  const studentGrades = getStudentGrades(params?.id);
+  const student = getStudent(params?.id);
+  const grades = getGrades((d) => d.studentID === params.id);
 
-  return { studentData, studentGrades };
+  return { student, grades };
 }
 
 export default function StudentDetails() {
-  const { studentData, studentGrades } = useLoaderData<typeof loader>();
+  const { student, grades } = useLoaderData<typeof loader>();
+
+  console.log("LOG", { student, grades });
 
   return (
     <div className="flex flex-col gap-4">
@@ -34,17 +37,17 @@ export default function StudentDetails() {
         </a>
       </div>
       <div className="flex flex-col justify-between sm:flex-row">
-        <h2 className="text-3xl font-semibold">{studentData.name}</h2>
+        <h2 className="text-3xl font-semibold">{student.name}</h2>
         <div className="flex w-full items-center justify-between sm:w-fit sm:justify-end sm:gap-2">
           <span className="text-xl">Average</span>
           <div className="flex items-center">
-            <span className="text-xl font-semibold">{studentGrades?.avg}</span>
+            <span className="text-xl font-semibold">{grades.avg}</span>
             <span>%</span>
           </div>
         </div>
       </div>
-      {studentGrades?.assignments &&
-        studentGrades.assignments.map((assignment, index) => (
+      {grades?.populatedGrades &&
+        grades.populatedGrades.map((assignment, index) => (
           <GradeCard key={index} {...assignment} />
         ))}
     </div>
