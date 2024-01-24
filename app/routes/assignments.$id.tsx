@@ -1,7 +1,8 @@
-import { useLoaderData, useLocation } from "@remix-run/react";
-import { FullGrade, getAssignment } from "~/services";
+import { useLoaderData } from "@remix-run/react";
 import { GradeCard } from "~/components/Cards";
 import type { LoaderFunctionArgs, MetaFunction } from "@remix-run/node";
+import { getGrades } from "~/services/Grade";
+import { getAssignment } from "~/services/Assignment";
 
 export const meta: MetaFunction = ({ location }) => {
   const assignmentID = location.pathname.split("/")[2];
@@ -19,12 +20,13 @@ export async function loader({ params }: LoaderFunctionArgs) {
   if (!params.id) return;
 
   const assignment = getAssignment(params?.id);
+  const assignments = getGrades((d) => d.assignmentID === params.id);
 
-  return { assignment };
+  return { assignment, assignments };
 }
 
 export default function AssignmentDetails() {
-  const { assignment } = useLoaderData<typeof loader>();
+  const { assignment, assignments } = useLoaderData<typeof loader>();
 
   return (
     <div className="flex flex-col gap-4">
@@ -36,18 +38,18 @@ export default function AssignmentDetails() {
       </div>
       <div className="flex flex-col justify-between sm:flex-row">
         <h2 className="text-3xl font-semibold">
-          Assignment: {assignment?.label}
+          Assignment: {assignment.label}
         </h2>
         <div className="flex w-full items-center justify-between sm:w-fit sm:justify-end sm:gap-2">
           <span className="text-xl">Average</span>
           <div className="flex items-center">
-            <span className="text-xl font-semibold">{assignment.avg}</span>
+            <span className="text-xl font-semibold">{assignments.avg}</span>
             <span>%</span>
           </div>
         </div>
       </div>
-      {assignment?.assignments &&
-        assignment.assignments.map((student, index) => (
+      {assignments &&
+        assignments?.populatedGrades.map((student, index) => (
           <GradeCard key={index} {...student} label={student.name} />
         ))}
     </div>
