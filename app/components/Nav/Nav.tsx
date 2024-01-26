@@ -17,7 +17,7 @@ export const Nav = ({
   paths?: { href: string; label: string }[];
 }) => (
   <>
-    <nav className="flex min-h-16 items-center justify-center bg-gray-200 sm:hidden">
+    <nav className="flex min-h-16 items-center justify-center bg-gray-200 shadow-md sm:hidden">
       <details className="flex w-max items-center">
         {paths?.map((path, index) =>
           determineLinks(path.href, pathname) ? (
