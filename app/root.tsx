@@ -27,9 +27,10 @@ interface Path {
 }
 
 const paths: Path[] = [
-  { href: "/schedule", label: "Schedule" },
-  { href: "/", label: "Students" },
+  // { href: "/dashboard", label: "Dashboard" },
   { href: "/assignments", label: "Assignments" },
+  { href: "/students", label: "Students" },
+  { href: "/schedule", label: "Schedule" },
 ];
 
 export default function App() {

@@ -1,8 +1,9 @@
+import { Link } from "@remix-run/react";
+
 const determineLinks = (href: string, pathname: string) => {
   const hrefTarget = href.split("/")[1];
   const pathTarget = pathname.split("/")[1];
 
-  if (pathTarget === "student" && hrefTarget === "") return true;
   if (hrefTarget === pathTarget) return true;
 
   return false;
@@ -26,13 +27,13 @@ export const Nav = ({
               </h1>
             </summary>
           ) : (
-            <a
-              href={path.href}
+            <Link
+              to={path.href}
               key={index}
               className="h-16 px-6 py-4 text-center text-xl underline underline-offset-4"
             >
               {path.label}
-            </a>
+            </Link>
           ),
         )}
       </details>
@@ -44,13 +45,13 @@ export const Nav = ({
             {path.label}
           </h1>
         ) : (
-          <a
-            href={path.href}
+          <Link
+            to={path.href}
             key={index}
             className="h-16 px-6 py-4 text-xl underline underline-offset-4"
           >
             {path.label}
-          </a>
+          </Link>
         ),
       )}
     </nav>
