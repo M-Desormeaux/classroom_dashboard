@@ -1,4 +1,4 @@
-import { useLoaderData } from "@remix-run/react";
+import { Link, useLoaderData } from "@remix-run/react";
 import { GradeCard } from "~/components/Cards";
 import type { LoaderFunctionArgs, MetaFunction } from "@remix-run/node";
 import { getAssignment, getGrades } from "~/services";
@@ -31,9 +31,9 @@ export default function AssignmentDetails() {
     <div className="flex flex-col gap-4">
       <div className="flex gap-1 text-lg">
         &gt;
-        <a href="/grades" className="underline underline-offset-2">
-          All grades
-        </a>
+        <Link to="/assignments" className="underline underline-offset-2">
+          All Assignments
+        </Link>
       </div>
       <div className="flex flex-col justify-between sm:flex-row">
         <h2 className="text-3xl font-semibold">
