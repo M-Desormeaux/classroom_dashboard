@@ -26,12 +26,12 @@ export const getStudents = async () => {
       (total: number, grade: { score: number }) => total + grade.score,
       0,
     );
-    const avg = sum / student.grades.length;
+    const avg = formatGrade(sum / student.grades.length);
 
     return {
       name: student.name,
       studentID: student.studentID,
-      avg: formatGrade(avg),
+      avg,
     };
   });
 
