@@ -21,7 +21,7 @@ export const getClasses = async () => {
     const low = Math.min(...gradeValues);
     const high = Math.max(...gradeValues);
 
-    return { ...point, avg, low, high };
+    return { ...point, grades: null, avg, low, high };
   });
 
   return temp;
