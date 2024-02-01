@@ -10,8 +10,20 @@ export const meta: MetaFunction = () => {
   ];
 };
 
+export const ErrorBoundary = () => {
+  return (
+    <div className="flex w-full flex-col items-center gap-3 rounded border border-red-500 bg-red-100 p-6">
+      <h2 className="text-lg font-bold">Error: API failure.</h2>
+      <p>
+        It seems the API for this page failed, I apologize and hope the next
+        time you visit it is working
+      </p>
+    </div>
+  );
+};
+
 export async function loader() {
-  const students = getStudents();
+  const students = await getStudents();
 
   return { students };
 }
@@ -21,6 +33,7 @@ export default function Students() {
 
   return (
     <div className="flex flex-col gap-4">
+      {/* <pre>{JSON.stringify(students, null, 2)}</pre> */}
       {students.map((student) => (
         <StudentCard key={student.studentID} {...student} />
       ))}
