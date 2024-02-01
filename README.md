@@ -4,6 +4,5 @@ Classroom-Dashboard is a hypothetical Minimum Viable Product for educational ass
 
 ## Planned Features
 
-- [ ] Minimal UI with General Dashboard
-- [ ] Authentication and DB with supabase
-- [ ] CRUD grade operations
+- [x] Minimal UI with General Dashboard
+- [x] Authentication and DB with supabase
