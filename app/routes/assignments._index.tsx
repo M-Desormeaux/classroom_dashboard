@@ -15,7 +15,7 @@ export const meta: MetaFunction = () => {
 };
 
 export async function loader() {
-  const assignments = getAssignments();
+  const assignments = await getAssignments();
 
   return { assignments };
 }
@@ -25,7 +25,7 @@ export default function Assignments() {
 
   return (
     <div className="flex flex-col gap-4">
-      {assignments.map((assignment, index) => (
+      {assignments?.map((assignment, index) => (
         <AssignmentCard key={index} {...assignment} />
       ))}
     </div>
