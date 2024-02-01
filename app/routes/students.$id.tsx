@@ -42,9 +42,14 @@ export default function StudentDetails() {
           </div>
         </div>
       </div>
+
       {student?.grades &&
-        student.grades.map((assignment) => (
-          <GradeCard key={assignment.assignmentID} {...assignment} />
+        student.grades.map((assignment, index) => (
+          <GradeCard
+            key={index}
+            {...assignment}
+            label={assignment.assignmentLabel}
+          />
         ))}
     </div>
   );

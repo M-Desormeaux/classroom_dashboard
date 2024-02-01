@@ -30,7 +30,7 @@ export const getStudent = async (studentID: string) => {
     .eq("studentID", studentID)
     .select(
       `
-    *,
+    *, studentName:name,
     grades (
       assignmentID, score, assignmentLabel:assignments(label), classLabel:classes(label)
     )

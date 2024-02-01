@@ -1,18 +1,31 @@
-import { AssignmentsData } from "./_data";
+import { formatGrade } from "~/utils/formatGrade";
+import { supabase } from "./supabaseClient";
 
-interface Assignment {
-  assignmentID: string;
-  classID: string;
-  label: string;
-}
+export const getAssignment = async (assignmentID: string) => {
+  const { data, error } = await supabase
+    .from("assignments")
+    .select()
+    .eq("assignmentID", assignmentID)
+    .select(`*, grades(score, studentName:students(name))`);
 
-export const getAssignment = (assignmentID: string) => {
-  const assignments: Assignment[] = AssignmentsData;
-  const matchingAssignment = assignments.find(
-    (assignment) => assignment.assignmentID === assignmentID,
+  if (error) throw new Error();
+
+  const assignment = data[0];
+
+  const grades = assignment.grades.map(
+    (grade: { score: number; studentName: { name: "string" } }) => ({
+      ...grade,
+      studentName: grade.studentName.name,
+    }),
   );
 
-  if (!matchingAssignment) throw new Error("No matching Assignment");
+  const sum = grades.reduce(
+    (total: number, grade: { score: number }) => total + grade.score,
+    0,
+  );
+  const avg = formatGrade(sum / assignment.grades.length);
 
-  return matchingAssignment;
+  const assignmentData = { ...assignment, grades, avg };
+
+  return assignmentData;
 };
