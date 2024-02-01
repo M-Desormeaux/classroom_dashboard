@@ -9,12 +9,17 @@ interface StudentData {
 
 export const getStudents = async () => {
   // select students from 'students' and get associated grades from 'grades'
-  const { data: students, error } = await supabase.from("students").select(`
+  const { data: students, error } = await supabase
+    .from("students")
+    .select(
+      `
     *,
     grades (
-      studentID, score
+      score
     )
-  `);
+  `,
+    )
+    .order("studentID");
 
   if (error) throw new Error();
 

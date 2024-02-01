@@ -4,7 +4,8 @@ import { supabase } from "./supabaseClient";
 export const getAssignments = async () => {
   const { data, error } = await supabase
     .from("assignments")
-    .select(`*, grades(score)`);
+    .select(`*, grades(score)`)
+    .order("assignmentID");
 
   if (error) throw error;
 

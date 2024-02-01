@@ -35,7 +35,8 @@ export const getStudent = async (studentID: string) => {
       assignmentID, score, assignmentLabel:assignments(label), classLabel:classes(label)
     )
   `,
-    );
+    )
+    .order("assignmentID", { referencedTable: "grades" });
 
   // TODO: GET ASSIGNMENT NAME TOO
 

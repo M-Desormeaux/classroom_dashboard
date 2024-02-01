@@ -6,7 +6,8 @@ export const getAssignment = async (assignmentID: string) => {
     .from("assignments")
     .select()
     .eq("assignmentID", assignmentID)
-    .select(`*, grades(score, studentName:students(name))`);
+    .select(`*, grades(score, studentName:students(name))`)
+    .order("studentID", { referencedTable: "grades" });
 
   if (error) throw new Error();
 
