@@ -14,7 +14,7 @@ export const meta: MetaFunction = () => {
 };
 
 export async function loader() {
-  const classes = await getClasses();
+  const classes = getClasses();
 
   return { classes };
 }

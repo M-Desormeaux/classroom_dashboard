@@ -4,7 +4,7 @@ import { formatGrade } from "~/utils/formatGrade";
 import { Link } from "@remix-run/react";
 
 export const AssignmentCard = ({
-  label,
+  label = "",
   desc,
   avg,
   high,
