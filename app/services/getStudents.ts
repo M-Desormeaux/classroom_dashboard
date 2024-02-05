@@ -1,17 +1,44 @@
-import { getGrades } from ".";
-import { StudentsData } from "./_data";
+import { formatGrade } from "~/utils/formatGrade";
+import { supabase } from "./supabaseClient";
 
-export const getStudents = () => {
-  const temp = StudentsData.map((dataPoint) => {
-    const studentGrades = getGrades((d) => {
-      return d.studentID === dataPoint.studentID;
-    });
+interface StudentData {
+  name: string;
+  studentID: string;
+  avg: number;
+}
+
+export const getStudents = async () => {
+  // select students from 'students' and get associated grades from 'grades'
+  const { data: students, error } = await supabase
+    .from("students")
+    .select(
+      `
+    *,
+    grades (
+      score
+    )
+  `,
+    )
+    .order("studentID");
+
+  if (error) throw new Error();
+
+  // I don't actually want the grades passed to the page, I just want the average
+  const data: StudentData[] = students.map((student) => {
+    const grades = student.grades;
+
+    const sum = grades.reduce(
+      (total: number, grade: { score: number }) => total + grade.score,
+      0,
+    );
+    const avg = formatGrade(sum / student.grades.length);
 
     return {
-      ...dataPoint,
-      ...studentGrades,
+      name: student.name,
+      studentID: student.studentID,
+      avg,
     };
   });
 
-  return temp;
+  return data;
 };
